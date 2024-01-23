@@ -1,14 +1,17 @@
 #include "Bureaucrat.hpp"
 
-int		main()
+int main( void )
 {
-	try {
-		Bureaucrat bureaucrat("Bob", 150);
 
-		std::cout << bureaucrat << std::endl;
-		bureaucrat.decrementGrade();
+	try {
+		Bureaucrat bureaucrat("Bob ", 15);
+		Form form("secret defense form",1);
+
+		bureaucrat.signForm(form);
+
+		std::cout << form << std::endl;
 	}
-	catch (Bureaucrat::GradeTooLowException &e){
+	catch (std::exception &e) {
 		std::cout << e.what() << std::endl;
 	}
 }

@@ -1,6 +1,6 @@
-SRCS = Bureaucrat.cpp main.cpp
+SRCS = Form.cpp Bureaucrat.cpp main.cpp
 
-NAME = ex00
+NAME = ex01
 
 CFLANG = -Wall -Wextra -Werror -std=c++98
 OBJS = $(SRCS:.cpp=.o)
