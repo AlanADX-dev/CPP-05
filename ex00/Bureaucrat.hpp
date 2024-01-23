@@ -6,14 +6,14 @@
 class	Bureaucrat {
 
 	private:
-		std::string		m_name;
+		const std::string		m_name;
 		int				m_grade;
 
 	protected:
 
 	public:
 		Bureaucrat();
-		Bureaucrat(const std::string name, int grade);
+		Bureaucrat(const std::string& name, int grade);
 		Bureaucrat(const Bureaucrat& src);
 		~Bureaucrat();
 
