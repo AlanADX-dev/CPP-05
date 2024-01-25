@@ -2,7 +2,7 @@ SRCS = Bureaucrat.cpp main.cpp
 
 NAME = ex00
 
-CFLANG = -Wall -Wextra -Werror -std=c++98
+CFLAG = -Wall -Wextra -Werror -std=c++98
 OBJS = $(SRCS:.cpp=.o)
 
 

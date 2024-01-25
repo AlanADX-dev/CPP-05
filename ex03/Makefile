@@ -2,7 +2,7 @@ SRCS = Intern.cpp PresidentialPardonForm.cpp RobotomyRequestForm.cpp ShrubberyCr
 
 NAME = ex03
 
-CFLANG = -Wall -Wextra -Werror -std=c++98
+CFLAG = -Wall -Wextra -Werror -std=c++98
 OBJS = $(SRCS:.cpp=.o)
 
 

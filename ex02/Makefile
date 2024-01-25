@@ -2,7 +2,7 @@ SRCS = PresidentialPardonForm.cpp RobotomyRequestForm.cpp ShrubberyCreationForm.
 
 NAME = ex02
 
-CFLANG = -Wall -Wextra -Werror -std=c++98
+CFLAG = -Wall -Wextra -Werror -std=c++98
 OBJS = $(SRCS:.cpp=.o)
 
 
